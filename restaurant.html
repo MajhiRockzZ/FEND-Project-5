@@ -17,12 +17,14 @@
   <header>
     <!-- Beginning nav -->
     <nav>
-      <h1><a href="/">Restaurant Reviews</a></h1>
+      <h1><a href="./">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" >
-      <li><a href="/">Home</a></li>
+    <nav class="breadcrumb">
+      <ul id="breadcrumb" >
+      <li><a href="./">Home</a></li>
     </ul>
+    </nav>
     <!-- End breadcrumb -->
     <!-- End nav -->
   </header>
@@ -34,12 +36,14 @@
     <!-- TODO: Section lacks heading-->
     <section id="map-container" class="box">
       <div id="map"></div>
+      <div id="map-help" hidden>Map showing the Restaurant's location</div>
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
-    <section id="restaurant-container">
+    <div class="container" id="container-2">
+      <section id="restaurant-container" class="box">
       <!-- TODO: Empty heading-->
-      <h1 id="restaurant-name"></h1>
+      <h2 id="restaurant-name"></h2>
       <!-- TODO: Element img is missing required attribute src.-->
       <!-- TODO: An img element must have an alt attribute.-->
       <img id="restaurant-img">
@@ -50,9 +54,10 @@
     <!-- end restaurant -->
     <!-- Beginning reviews -->
     <!-- TODO: Section lacks heading-->
-    <section id="reviews-container">
+    <section id="reviews-container" class="box">
       <ul id="reviews-list"></ul>
     </section>
+    </div>
     <!-- End reviews -->
   </main>
   <!-- End main -->
