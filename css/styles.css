@@ -35,6 +35,26 @@ h1, h2, h3, h4, h5, h6 {
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+/* ----------------------------------*/
+/* Catch-all for images */
+/* ----------------------------------*/
+img {
+  width: 100%;
+}
+
+/* ----------------------------------*/
+/* Flexbox Layout */
+/* ----------------------------------*/
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100%;
+}
 #maincontent {
   background-color: #f3f3f3;
   min-height: 100%;
