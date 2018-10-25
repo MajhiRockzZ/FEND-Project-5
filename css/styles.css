@@ -549,6 +549,7 @@ nav h1 a {
     color: #01447e;
     text-decoration: underline;
 }*/
+
 @media screen and (max-width: 875px) {
   #breadcrumb {
     width: calc(100% - 40px);
