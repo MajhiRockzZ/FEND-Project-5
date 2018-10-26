@@ -28,3 +28,27 @@ self.addEventListener('activate', (event) => {
         }));
     }));
 });
+
+/**
+ * Intercept requests and respond accordingly
+ */
+self.addEventListener('fetch', (event) => {
+    event.respondWith(caches.match(event.request).then((response) => {
+        return response ||
+            caches.open(staticCacheName).then((caches) => {
+                return fetch(event.request).then((response) => {
+                    if (response.status === 404) {
+                        console.log("Page not found");
+                        return new Response("Page not found.")
+                    }
+
+                    if (event.request.url.indexOf('restaurant.html') != -1 || event.request.url.indexOf('leaflet') != -1) {
+                        cache.put(event.request, response.clone());
+                    }
+                    return response;
+                });
+            });
+    }).catch(function () {
+        return new Response("You are offline, and there is no old cache for URL.")
+    }));
+});
