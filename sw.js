@@ -1,6 +1,7 @@
 var staticCacheName = 'mws-static-v1';
+
 /**
- * Install Service worker
+ * Install Service Worker
  */
 self.addEventListener('install', (event) => {
     event.waitUntil(caches.open(staticCacheName).then((cache) => {
@@ -12,5 +13,18 @@ self.addEventListener('install', (event) => {
             'https://unpkg.com/leaflet@1.3.1/dist/leaflet.css',
             'https://unpkg.com/leaflet@1.3.1/dist/leaflet.js',
         ]);
+    }));
+});
+
+/**
+ * Activate Service Worker
+ */
+self.addEventListener('activate', (event) => {
+    event.waitUntil(caches.keys().then((cacheNames) => {
+        return Promise.all(cacheNames.filter((cacheName) => {
+            return cacheName.startsWith('mws-') && cacheName != staticCacheName;
+        }).map((cacheName) => {
+            return caches.delete(cacheName);
+        }));
     }));
 });
