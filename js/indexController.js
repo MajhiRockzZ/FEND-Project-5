@@ -66,3 +66,22 @@ IndexController.prototype._registerServiceWorker = function () {
         window.location.reload();
     });
 };
+
+/**
+ * Notify user abour installing service worker state.
+ */
+IndexController.prototype._trackInstalling = function (worker) {
+    let indexController = this;
+    worker.addEventListener('statechange', () => {
+        if (worker.state == 'installed') {
+            indexController._updateReady(worker);
+        }
+    });
+};
+
+IndexController.prototype._updateReady = function (worker) {
+    userConsent = confirm("New version available. Do you want to update?");
+
+    if (!userConsent) return;
+    worker.postMessage('updateSW');
+}
