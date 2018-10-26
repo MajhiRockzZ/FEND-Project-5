@@ -84,4 +84,4 @@ IndexController.prototype._updateReady = function (worker) {
 
     if (!userConsent) return;
     worker.postMessage('updateSW');
-}
+};

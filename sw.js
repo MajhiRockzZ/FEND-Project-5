@@ -52,3 +52,13 @@ self.addEventListener('fetch', (event) => {
         return new Response("You are offline, and there is no old cache for URL.")
     }));
 });
+
+/**
+ * Listen for the "message" event.
+ */
+self.addEventListener('message', (event) => {
+    if (event.data) {
+        console.log('Message received:' + event.data);
+        self.skipWaiting;
+    }
+});
