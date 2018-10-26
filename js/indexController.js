@@ -49,5 +49,20 @@ IndexController.prototype._registerServiceWorker = function () {
             indexController._trackInstalling(reg.installing);
             return;
         }
+
+        /**
+         * Track updates from Service Worker
+         */
+        reg.addEventListener('updatefound', () => {
+            const newWorker = reg.installing;
+            indexController._trackInstalling(newWorker);
+        });
+        // Detect error during service worker registration.
+    }).catch((err) => {
+        console.log('Service Worker registration failed: ', err);
+    });
+
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+        window.location.reload();
     });
 };
