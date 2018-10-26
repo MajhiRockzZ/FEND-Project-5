@@ -41,5 +41,13 @@ IndexController.prototype._registerServiceWorker = function () {
             indexController._updateReady(reg.waiting);
             return;
         }
+
+        /**
+         * Check for INSTALLING WORKER
+         */
+        if (reg.installing) {
+            indexController._trackInstalling(reg.installing);
+            return;
+        }
     });
 };
