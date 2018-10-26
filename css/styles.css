@@ -545,10 +545,10 @@ nav h1 a {
 }
 
 /* Add a color on mouse-over */
-/*#breadcrumb li a:hover {
+#breadcrumb li a:hover {
     color: #01447e;
     text-decoration: underline;
-}*/
+}
 
 @media screen and (max-width: 875px) {
   #breadcrumb {
