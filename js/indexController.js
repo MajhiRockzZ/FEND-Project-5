@@ -21,5 +21,17 @@ IndexController.prototype._registerServiceWorker = function () {
 
     let IndexController = this;
 
-}
+    /**
+     * Register new service worker
+     */
+    navigator.serviceWorker.register('./sw.js').then(reg) => {
+        console.log('Service Worker successfully registered with scope : ', reg.scope);
+
+        /**
+         * TODO: Add comment(Sumesh)
+         */
+        if (!navigator.serviceWorker.controller) {
+            return;
+        }
+    }
 }
