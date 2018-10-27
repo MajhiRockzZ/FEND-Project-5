@@ -73,7 +73,7 @@ IndexController.prototype._registerServiceWorker = function () {
 IndexController.prototype._trackInstalling = function (worker) {
     let indexController = this;
     worker.addEventListener('statechange', () => {
-        if (worker.state == 'installed') {
+        if (worker.state === 'installed') {
             indexController._updateReady(worker);
         }
     });
