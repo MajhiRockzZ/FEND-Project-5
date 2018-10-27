@@ -1,4 +1,4 @@
-var staticCacheName = 'restaurant-cache';
+let staticCacheName = 'restaurant-cache';
 
 let urlsToCache = [
     './',
@@ -37,7 +37,7 @@ self.addEventListener('install', (event) => {
 self.addEventListener('activate', (event) => {
     event.waitUntil(caches.keys().then((cacheNames) => {
         return Promise.all(cacheNames.filter((cacheName) => {
-            return cacheName.startsWith('restaurant-') && cacheName != staticCacheName;
+            return cacheName.startsWith('restaurant-') && cacheName !== staticCacheName;
         }).map((cacheName) => {
             return caches.delete(cacheName);
         }));
@@ -57,8 +57,8 @@ self.addEventListener('fetch', (event) => {
                         return new Response("Page not found.")
                     }
 
-                    if (event.request.url.indexOf('restaurant.html') != -1 || event.request.url.indexOf('leaflet') != -1) {
-                        cache.put(event.request, response.clone());
+                    if (event.request.url.indexOf('restaurant.html') !== -1 || event.request.url.indexOf('leaflet') !== -1) {
+                        caches.put(event.request, response.clone());
                     }
                     return response;
                 });
