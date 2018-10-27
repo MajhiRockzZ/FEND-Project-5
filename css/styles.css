@@ -33,7 +33,7 @@ a:focus {
 }
 
 a img {
-  border: none 0px #fff;
+  border: none 0 #fff;
 }
 
 h1,
@@ -895,7 +895,7 @@ nav h1 a {
 #restaurant-address {
   font-size: 11pt;
   font-weight: bolder;
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
 #restaurant-cuisine {
@@ -1022,3 +1022,7 @@ nav h1 a {
     width: 80%;
   }
 }
+
+/* ---------------------------------------------------------- */
+/* Cool Effects */
+/* ---------------------------------------------------------- */
