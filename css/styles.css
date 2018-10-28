@@ -90,507 +90,6 @@ img {
     flex-wrap: wrap;
 }
 
-.col-1,
-.col-2,
-.col-3,
-.col-4,
-.col-5,
-.col-6,
-.col-7,
-.col-8,
-.col-9,
-.col-10,
-.col-11,
-.col-12,
-.col,
-.col-auto,
-.col-sm-1,
-.col-sm-2,
-.col-sm-3,
-.col-sm-4,
-.col-sm-5,
-.col-sm-6,
-.col-sm-7,
-.col-sm-8,
-.col-sm-9,
-.col-sm-10,
-.col-sm-11,
-.col-sm-12,
-.col-sm,
-.col-sm-auto,
-.col-md-1,
-.col-md-2,
-.col-md-3,
-.col-md-4,
-.col-md-5,
-.col-md-6,
-.col-md-7,
-.col-md-8,
-.col-md-9,
-.col-md-10,
-.col-md-11,
-.col-md-12,
-.col-md,
-.col-md-auto,
-.col-lg-1,
-.col-lg-2,
-.col-lg-3,
-.col-lg-4,
-.col-lg-5,
-.col-lg-6,
-.col-lg-7,
-.col-lg-8,
-.col-lg-9,
-.col-lg-10,
-.col-lg-11,
-.col-lg-12,
-.col-lg,
-.col-lg-auto,
-.col-xl-1,
-.col-xl-2,
-.col-xl-3,
-.col-xl-4,
-.col-xl-5,
-.col-xl-6,
-.col-xl-7,
-.col-xl-8,
-.col-xl-9,
-.col-xl-10,
-.col-xl-11,
-.col-xl-12,
-.col-xl,
-.col-xl-auto {
-    width: 100%;
-}
-
-.col-1 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 8.33%;
-    flex: 0 0 8.33%;
-    max-width: 8.33%;
-}
-
-.col-2 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 16.66%;
-    flex: 0 0 16.66%;
-    max-width: 16.66%;
-}
-
-.col-3 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-}
-
-.col-4 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 33.33%;
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
-}
-
-.col-5 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 41.66%;
-    flex: 0 0 41.66%;
-    max-width: 41.66%;
-}
-
-.col-6 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-}
-
-.col-7 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 58.33%;
-    flex: 0 0 58.33%;
-    max-width: 58.33%;
-}
-
-.col-8 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 66.66%;
-    flex: 0 0 66.66%;
-    max-width: 66.66%;
-}
-
-.col-9 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 75%;
-    flex: 0 0 75%;
-    max-width: 75%;
-}
-
-.col-10 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 83.33%;
-    flex: 0 0 83.33%;
-    max-width: 83.33%;
-}
-
-.col-11 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 91.66%;
-    flex: 0 0 91.66%;
-    max-width: 91.66%;
-}
-
-.col-12 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-
-@media (min-width: 401px) {
-    .col-sm-1 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 8.33;
-        flex: 0 0 8.33;
-        max-width: 8.33%;
-    }
-
-    .col-sm-2 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 16.66%;
-        flex: 0 0 16.66%;
-        max-width: 16.66%;
-    }
-
-    .col-sm-3 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 25%;
-        flex: 0 0 25%;
-        max-width: 25%;
-    }
-
-    .col-sm-4 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 33.33%;
-        flex: 0 0 33.33%;
-        max-width: 33.33%;
-    }
-
-    .col-sm-5 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 41.66%;
-        flex: 0 0 41.66%;
-        max-width: 41.66%;
-    }
-
-    .col-sm-6 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-
-    .col-sm-7 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 58.33%;
-        flex: 0 0 58.33%;
-        max-width: 58.33%;
-    }
-
-    .col-sm-8 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 66.66%;
-        flex: 0 0 66.66%;
-        max-width: 66.66%;
-    }
-
-    .col-sm-9 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 75%;
-        flex: 0 0 75%;
-        max-width: 75%;
-    }
-
-    .col-sm-10 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 83.33%;
-        flex: 0 0 83.33%;
-        max-width: 83.33%;
-    }
-
-    .col-sm-11 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 91.66%;
-        flex: 0 0 91.66%;
-        max-width: 91.66%;
-    }
-
-    .col-sm-12 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-}
-
-@media (min-width: 601px) {
-    .col-md-1 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 8.33;
-        flex: 0 0 8.33;
-        max-width: 8.33%;
-    }
-
-    .col-md-2 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 16.66%;
-        flex: 0 0 16.66%;
-        max-width: 16.66%;
-    }
-
-    .col-md-3 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 25%;
-        flex: 0 0 25%;
-        max-width: 25%;
-    }
-
-    .col-md-4 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 33.33%;
-        flex: 0 0 33.33%;
-        max-width: 33.33%;
-    }
-
-    .col-md-5 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 41.66%;
-        flex: 0 0 41.66%;
-        max-width: 41.66%;
-    }
-
-    .col-md-6 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-
-    .col-md-7 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 58.33%;
-        flex: 0 0 58.33%;
-        max-width: 58.33%;
-    }
-
-    .col-md-8 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 66.66%;
-        flex: 0 0 66.66%;
-        max-width: 66.66%;
-    }
-
-    .col-md-9 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 75%;
-        flex: 0 0 75%;
-        max-width: 75%;
-    }
-
-    .col-md-10 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 83.33%;
-        flex: 0 0 83.33%;
-        max-width: 83.33%;
-    }
-
-    .col-md-11 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 91.66%;
-        flex: 0 0 91.66%;
-        max-width: 91.66%;
-    }
-
-    .col-md-12 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-}
-
-@media (min-width: 876px) {
-    .col-lg-1 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 8.33;
-        flex: 0 0 8.33;
-        max-width: 8.33%;
-    }
-
-    .col-lg-2 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 16.66%;
-        flex: 0 0 16.66%;
-        max-width: 16.66%;
-    }
-
-    .col-lg-3 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 25%;
-        flex: 0 0 25%;
-        max-width: 25%;
-    }
-
-    .col-lg-4 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 33.33%;
-        flex: 0 0 33.33%;
-        max-width: 33.33%;
-    }
-
-    .col-lg-5 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 41.66%;
-        flex: 0 0 41.66%;
-        max-width: 41.66%;
-    }
-
-    .col-lg-6 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-
-    .col-lg-7 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 58.33%;
-        flex: 0 0 58.33%;
-        max-width: 58.33%;
-    }
-
-    .col-lg-8 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 66.66%;
-        flex: 0 0 66.66%;
-        max-width: 66.66%;
-    }
-
-    .col-lg-9 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 75%;
-        flex: 0 0 75%;
-        max-width: 75%;
-    }
-
-    .col-lg-10 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 83.33%;
-        flex: 0 0 83.33%;
-        max-width: 83.33%;
-    }
-
-    .col-lg-11 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 91.66%;
-        flex: 0 0 91.66%;
-        max-width: 91.66%;
-    }
-
-    .col-lg-12 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-}
-
-@media (min-width: 1081px) {
-    .col-xl-1 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 8.33;
-        flex: 0 0 8.33;
-        max-width: 8.33%;
-    }
-
-    .col-xl-2 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 16.66%;
-        flex: 0 0 16.66%;
-        max-width: 16.66%;
-    }
-
-    .col-xl-3 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 25%;
-        flex: 0 0 25%;
-        max-width: 25%;
-    }
-
-    .col-xl-4 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 33.33%;
-        flex: 0 0 33.33%;
-        max-width: 33.33%;
-    }
-
-    .col-xl-5 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 41.66%;
-        flex: 0 0 41.66%;
-        max-width: 41.66%;
-    }
-
-    .col-xl-6 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-
-    .col-xl-7 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 58.33%;
-        flex: 0 0 58.33%;
-        max-width: 58.33%;
-    }
-
-    .col-xl-8 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 66.66%;
-        flex: 0 0 66.66%;
-        max-width: 66.66%;
-    }
-
-    .col-xl-9 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 75%;
-        flex: 0 0 75%;
-        max-width: 75%;
-    }
-
-    .col-xl-10 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 83.33%;
-        flex: 0 0 83.33%;
-        max-width: 83.33%;
-    }
-
-    .col-xl-11 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 91.66%;
-        flex: 0 0 91.66%;
-        max-width: 91.66%;
-    }
-
-    .col-xl-12 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-}
-
 #maincontent {
     background-color: #f3f3f3;
     min-height: 100%;
@@ -698,9 +197,10 @@ nav h1 a:active {
 .filter-options {
     /* TODO: Secondary color */
     background-color: #1E824C;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px 0;
 }
 
 .filter-options h2 {
@@ -721,7 +221,8 @@ nav h1 a:active {
     letter-spacing: 0;
     margin: 10px;
     padding: 0 10px;
-    width: 90%;
+    width: 200px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 400px) {
@@ -751,6 +252,7 @@ nav h1 a:active {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    white-space: nowrap;
 }
 
 #restaurants-list li {
@@ -771,7 +273,7 @@ nav h1 a:active {
     min-height: 200px;
 }
 
-#restaurants-list li h3 {
+#restaurants-list li h2 {
     color: #B35F00;
     font-family: Arial, sans-serif;
     font-size: 13pt;
@@ -784,7 +286,7 @@ nav h1 a:active {
 
 #restaurants-list p {
     margin: 0;
-    font-size: 11pt;
+    font-size: 9pt;
 }
 
 #restaurants-list li a {
@@ -921,7 +423,7 @@ nav h1 a:active {
     padding: 30px 40px 80px;
 }
 
-#reviews-container h2 {
+#reviews-container h3 {
     color: #A35A00;
     font-size: 20pt;
     font-weight: 300;
