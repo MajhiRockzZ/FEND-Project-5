@@ -698,9 +698,10 @@ nav h1 a:active {
 .filter-options {
     /* TODO: Secondary color */
     background-color: #1E824C;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px 0;
 }
 
 .filter-options h2 {
@@ -721,7 +722,8 @@ nav h1 a:active {
     letter-spacing: 0;
     margin: 10px;
     padding: 0 10px;
-    width: 90%;
+    width: 200px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 400px) {
