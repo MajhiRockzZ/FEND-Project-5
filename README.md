@@ -6,7 +6,7 @@
     <br>
 </h1>
 
-<h4 align="center">In <a href="https://majhirockzz.github.io/HTML5-and-CSS3-Project-5/" target="_blank">Restaurant Reviews</a> projects we incrementally convert a static webpage to a mobile-ready web application. In Stage One, we have been given a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. We have also converted this to a Progressive Web Application by caching some assets for offline use.</h4>
+<h4 align="center">In <a href="https://majhirockzz.github.io/FEND-Project-5/" target="_blank">Restaurant Reviews</a> projects we incrementally convert a static webpage to a mobile-ready web application. In Stage One, we have been given a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. We have also converted this to a Progressive Web Application by caching some assets for offline use.</h4>
 
 <p align="center">
     <a href="https://majhirockzz.github.io/HTML5-and-CSS3-Project-1/">
@@ -25,7 +25,7 @@
     <a href="#key-features">Key Features</a> •
     <a href="#how-to-use">How To Use</a> •
     <a href="#credits">Credits</a> •
-    <a href="#license">License</a>
+    <a href="#license">License</a> •
     <a href="#acknowledgments">Acknowledgments</a>
 </p>
 
