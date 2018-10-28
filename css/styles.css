@@ -252,6 +252,7 @@ nav h1 a:active {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    white-space: nowrap;
 }
 
 #restaurants-list li {
@@ -272,7 +273,7 @@ nav h1 a:active {
     min-height: 200px;
 }
 
-#restaurants-list li h3 {
+#restaurants-list li h2 {
     color: #B35F00;
     font-family: Arial, sans-serif;
     font-size: 13pt;
@@ -285,7 +286,7 @@ nav h1 a:active {
 
 #restaurants-list p {
     margin: 0;
-    font-size: 11pt;
+    font-size: 9pt;
 }
 
 #restaurants-list li a {
