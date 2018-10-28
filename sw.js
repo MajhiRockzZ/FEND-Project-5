@@ -58,7 +58,7 @@ self.addEventListener('fetch', (event) => {
                     }
 
                     if (event.request.url.indexOf('restaurant.html') !== -1 || event.request.url.indexOf('leaflet') !== -1) {
-                        cache.put(event.request, response.clone());
+                        caches.put(event.request, response.clone());
                     }
                     return response;
                 });
